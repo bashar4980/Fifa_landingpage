@@ -215,5 +215,141 @@ hr {
 }
 
 /* Fotter section is  end*/
-
+/* Match css */
+.match_news_items {
+    width: 80%;
+     display              : grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap             : 20px;
+ }
+ 
+ .match_news_item {
+     border       : 1px solid rgba(232, 232, 232, 1);
+     border-radius: 10px;
+     padding: 15px;
+ }
+ 
+ .match_img{
+     display: flex;
+     width: 100%;
+     gap: 10px;
+    
+ }
+ .match_img h1{
+     font-size: 16px;
+ }
+ .match_img img{
+     width: 100%;
+ }
+ 
+ .match_info{
+     text-align: center!important;
+     margin-top: 50px;
+ }
+ .match_info h3{
+     font-size: 20px;
+ }
 /* Responsive css  */
+@media screen and (min-width:768px) and (max-width:991px) {
+    #blog_section {
+
+        display       : flex;
+        flex-direction: column;
+
+    }
+
+    .blog_drop_down {
+        width           : 100%;
+        flex-direction  : row;
+        justify-content : center;
+        background-color: #fff;
+    }
+
+    .blog_drop_down a {
+        border       : 1px solid #E8E8E8;
+        border-radius: 10px;
+        padding      : 10px 25px;
+     
+        text-align: center;
+    }
+
+  
+
+    .blog_news_items , .match_news_items {
+        width: 100%;
+
+        display              : grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap             : 20px;
+    }
+
+    .btn {
+       
+      display: block;
+        
+    }
+    .footer_navbar {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+}
+
+@media screen and (max-width:767px) {
+    .flex_section {
+        
+       flex-direction: column;
+       justify-content: center;
+    
+    }
+    .flex_section .header_text {
+      width: 100%;
+      margin: 30px 0px;
+      text-align: center;
+    }
+    .header_text h1{
+        font-size:22px;
+    }
+    .header_text p{
+        font-size: 14px;
+    }
+    .flex_section .header_image {
+        width: 60%;
+    }
+  
+    #blog_section {
+
+        display       : flex;
+        flex-direction: column;
+
+    }
+    .blog_drop_down{
+        flex-direction: column;
+        width           : 100%;
+       align-items: center;
+        justify-content : center;
+        background-color: #fff;
+    }
+    .blog_drop_down a {
+        border       : 1px solid #E8E8E8;
+        border-radius: 10px;
+        padding      : 10px 25px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .blog_news_items , .match_news_items {
+        width: 100%;
+
+        display              : grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap             : 20px;
+    }
+    .footer_navbar {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+       gap: 20px;
+      }
+      
+}
