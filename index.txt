@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA </title>
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+    <!-- Custom Css link -->
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    <
+    <!-- Blog Section is start -->
+    <main class="container">
+        <section id="blog_section">
+            <div class="blog_drop_down">
+                <a href="#" target="_blank">
+                    Upcoming Match
+                </a>
+                <a>
+                    All Group
+                </a>
+                <a class="blog">
+                    Blog
+                </a>
+            </div>
+
+            <div class="blog_news_items">
+                <div class="blog_news_item">
+                    <img src="./assets/Blog Image.png" alt="">
+
+                    <div class="blog-info">
+                        <button>Transfer</button>
+                        <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+
+                        <span><i class="fa-solid fa-clock"></i>10h</span>
+                        <span><i class="fa-solid fa-message"></i>23</span>
+
+
+
+
+
+                    </div>
+                </div>
+                <div class="blog_news_item">
+                    <img src="./assets/Blog Image.png" alt="">
+
+                    <div class="blog-info">
+                        <button>Transfer</button>
+                        <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+                        <span><i class="fa-solid fa-clock"></i>10h</span>
+                        <span><i class="fa-solid fa-message"></i>23</span>
+                    </div>
+                </div>
+                <div class="blog_news_item">
+                    <img src="./assets/Blog Image.png" alt="">
+
+                    <div class="blog-info">
+                        <button>Transfer</button>
+                        <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+                        <span><i class="fa-solid fa-clock"></i>10h</span>
+                        <span><i class="fa-solid fa-message"></i>23</span>
+                    </div>
+                </div>
+                <div class="blog_news_item">
+                    <img src="./assets/Blog Image.png" alt="">
+
+                    <div class="blog-info">
+                        <button>Transfer</button>
+                        <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+                        <span><i class="fa-solid fa-clock"></i>10h</span>
+                        <span><i class="fa-solid fa-message"></i>23</span>
+                    </div>
+                </div>
+                <div class="blog_news_item">
+                    <img src="./assets/Blog Image.png" alt="">
+
+                    <div class="blog-info">
+                        <button>Transfer</button>
+                        <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+                        <span><i class="fa-solid fa-clock"></i>10h</span>
+                        <span><i class="fa-solid fa-message"></i>23</span>
+                    </div>
+                </div>
+                <div class="blog_news_item">
+                    <img src="./assets/Blog Image.png" alt="">
+
+                    <div class="blog-info">
+                        <button>Transfer</button>
+                        <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+                        <span><i class="fa-solid fa-clock"></i>10h</span>
+                        <span><i class="fa-solid fa-message"></i>23</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <div id="btn">
+            <button class="btn">View All</button>
+        </div>
+       
+
+    </main>
+    <!-- Blog Section is end -->
+    <!-- Footer section -->
+    <footer id="footer">
+     <div class="container">
+        <h1>Goal</h1>
+        <hr class="line">
+        <div class="footer_navbar">
+            <a href="#">Contact Us</a>
+            <a href="#">Terms of Service </a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Privacy Setting</a>
+            <a href="#">Goal App</a>
+            <a href="#">Goal live</a>
+
+        </div>
+     </div>
+    </footer>
+    <!-- Footer end -->
+</body>
+
+</html>
