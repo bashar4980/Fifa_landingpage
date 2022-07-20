@@ -1,0 +1,44 @@
+@media screen and (min-width:768px) and (max-width:991px) {
+    #blog_section {
+
+        display       : flex;
+        flex-direction: column;
+
+    }
+
+    .blog_drop_down {
+        width           : 100%;
+        flex-direction  : row;
+        justify-content : center;
+        background-color: #fff;
+    }
+
+    .blog_drop_down a {
+        border       : 1px solid #E8E8E8;
+        border-radius: 10px;
+        padding      : 10px 25px;
+     
+        text-align: center;
+    }
+
+  
+
+    .blog_news_items , .match_news_items {
+        width: 100%;
+
+        display              : grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap             : 20px;
+    }
+
+    .btn {
+       
+      display: block;
+        
+    }
+    .footer_navbar {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+}
