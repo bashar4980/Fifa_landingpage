@@ -1,0 +1,17 @@
+     <div class="blog_news_items">
+                <div class="blog_news_item">
+                    <img src="./assets/Blog Image.png" alt="">
+
+                    <div class="blog-info">
+                        <button>Transfer</button>
+                        <h4>Transfer Live: Chlesea in talks over Kimpenbe transfer</h4>
+
+                        <span><i class="fa-solid fa-clock"></i>10h</span>
+                        <span><i class="fa-solid fa-message"></i>23</span>
+
+
+
+
+
+                    </div>
+                </div>

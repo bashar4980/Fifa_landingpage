@@ -1,0 +1,33 @@
+.match_news_items {
+   width: 80%;
+    display              : grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap             : 20px;
+}
+
+.match_news_item {
+    border       : 1px solid rgba(232, 232, 232, 1);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.match_img{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+   
+}
+.match_img h1{
+    font-size: 16px;
+}
+.match_img img{
+    width: 100%;
+}
+
+.match_info{
+    text-align: center!important;
+    margin-top: 50px;
+}
+.match_info h3{
+    font-size: 20px;
+}
